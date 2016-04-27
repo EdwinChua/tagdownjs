@@ -1,5 +1,10 @@
 /**
-
+ *   _                  _                        _     
+ *  | |_ __ _  __ _  __| | _____      ___ __    (_)___ 
+ *  | __/ _` |/ _` |/ _` |/ _ \ \ /\ / / '_ \   | / __|
+ *  | || (_| | (_| | (_| | (_) \ V  V /| | | |_ | \__ \
+ *   \__\__,_|\__, |\__,_|\___/ \_/\_/ |_| |_(_)/ |___/
+ *            |___/                           |__/     
  * 
  * Filename: "tagdown.js"
  * Author: "spikespaz"
@@ -10,7 +15,7 @@
  * Description: "A script to dynamically render Markdown text as HTML."
  * 
  * Link this file as a script source.
- *     <script src="scripts/tagdown.js"></script>
+ *     <script src="http://spikespaz.github.io/tagdownjs/scripts/tagdown.js"></script>
  * 
  * Enclose your Markdown text in <markdown> and </markdown> tags.
  * 
