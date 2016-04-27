@@ -1307,6 +1307,8 @@ if (typeof module !== 'undefined' && typeof exports === 'object') {
 
 // Begin render of in-page Markdown
 
+document.body.style.display = 'none';
+
 var mdTag = document.getElementsByTagName('markdown')[0];
 
 var mdText = mdTag.textContent || mdTag.innerText;
@@ -1318,3 +1320,5 @@ document.body.replaceChild(mdDiv, mdTag);
 
 var mdHtml = marked(mdText);
 document.getElementById('content').innerHTML = mdHtml;
+
+document.body.style.display = '';
