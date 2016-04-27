@@ -6,11 +6,11 @@ Please click the link below for information about the repository.
 
 All Readme information is located on the main site.
 
- * #### [Tagdown JS](http://spikespaz.github.io/tagdownjs)
+ * **[Tagdown JS](http://spikespaz.github.io/tagdownjs)**
  
 ## License
 
-This project is licensed under the *[MIT License]()*.
+This project is licensed under the *[MIT License](http://github.com/spikespaz/tagdownjs/blob/gh-pages/LICENSE)*.
 
 #### MIT License
 
