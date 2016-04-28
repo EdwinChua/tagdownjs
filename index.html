@@ -25,9 +25,30 @@
 
 ---
 
+### About
+
+Tagdown JS is a simple javascript file that can be linked as a script source to render Markdown to HTML dynamically, without the need for any server-side conversion.
+
+Dynamic rendering allows for faster writing and documentation via Gitb Pages.
+
+All of the text that you see on the main body of this page was written in Markdown and rendered into HTML by the script.
+
+Two scripts are provided:
+ * `tagdown.js` *(standard)*
+   * Readable, clean code
+ * `tagdown.min.js` *(minified)*
+   * Jumbled code, difficult to read
+   * Faster page loading
+
+If you are just going to be using the script without modificaion, link `tagdown.min.js` *(minified)* for rendering.
+
+Original script minified using [UglifyJS2](https://github.com/mishoo/UglifyJS2).
+
+---
+
 ### Usage
 
- * Include the script sources in the bottom of your HTML file.
+ * Include the script source in the bottom of your HTML file.
     * <xmp>`<script src="https://spikespaz.github.io/tagdownjs/scripts/tagdown.min.js"></script>`</xmp>
  * Place all Markdown text between <xmp>`<markdown>` and `</markdown>`</xmp> tags.
 
@@ -66,7 +87,7 @@ To see a working example of the above code, click [here](example.html).
 
 ---
 
-### File Information:
+### File Information
 
 > **Filenames:** "`tagdown.js`" and "`tagdown.min.js`"
 
@@ -82,8 +103,6 @@ To see a working example of the above code, click [here](example.html).
 
 ---
 
-### Includes Markdown Parser:
-
 > "`marked.js`" by *Christopher Jeffrey*
 
 > `Copyright (c) 2011-2014, Christopher Jeffrey.` *(MIT Licensed)*
@@ -92,7 +111,7 @@ To see a working example of the above code, click [here](example.html).
 
 ---
 
-### Script Sources:
+### Sources
 
  * ##### [Source Script](scripts/tagdown.js)
 
