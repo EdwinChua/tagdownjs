@@ -161,7 +161,7 @@ To see a working example of the above code, click [here](example.html).
 ---
 </markdown>
 
-<!-- Footer, with Copyright and Downloads -->
+<!-- Footer, with Copyright, License and Downloads -->
 <center>
   <div class="panel panel-default">
     <div class="panel-heading"><h3>Download Scripts</h3></div>
@@ -221,8 +221,8 @@ SOFTWARE.
   <script src="js/jquery.1.11.3.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
-  <!-- Include "tagdown.js" Markdown script & "spoiler.js" for spoilers -->
+  <!-- Include "tagdown.js" Markdown script & code for spoilers -->
   <script src="scripts/tagdown.min.js"></script>
-  <script src="js/spoiler.js"></script>
+  <script>$(".spoiler-trigger").click(function() {$(this).parent().next().collapse('toggle');});</script>
 </body>
 </html>
